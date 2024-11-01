@@ -1,0 +1,133 @@
+@charset "utf-8";
+@import url("generic.css");
+
+@media (max-width: 600px) {
+    body {
+        background-color: lightgray;
+        color: darkblue;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+}
+
+/* Media query for devices with a width of 400px or less */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+}
+
+
+/* styles */
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+
+}
+
+
+div.content {
+    width: 80%;
+    margin: 0 auto 0 auto;
+
+}
+
+p {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 120%;
+}
+
+html {
+    background: url(../images/sunrise-phu-quoc-island-ocean-fotor-2024101713131.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    opacity: 1;
+
+}
+
+
+
+a#insta {
+
+    font-style: italic;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img#Rl {
+    height: 25px;
+    width: 25px
+}
+
+img#indeed,
+img#tiktok,
+img#insta {
+    width: 25px;
+    height: 25px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.embed-container {
+    display: inline-block;
+    /* Allow margin auto to work */
+    width: 80%;
+    /* Set desired width */
+    max-width: 800px;
+    /* Optional: limit max width */
+    height: 400px;
+    /* Set desired height */
+    size: 1000px;
+}
+
+iframe {
+    width: 100%;
+    /* Full width of the container */
+    height: 100%;
+    /* Full height of the container */
+    border: none;
+    /* Remove default border */
+}
+
+
+img#spotify {
+    width: 150px;
+    height: 150px;
+}

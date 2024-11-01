@@ -1,0 +1,38 @@
+@import url("generic.css");
+
+
+
+
+p {
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 120%;
+}
+
+img#fairmont,
+img#sinclair {
+    width: 120px;
+    height: 120px;
+
+}
+
+
+article {
+    column-count: 3;
+    min-width: 350px;
+    column-gap: 20px;
+    column-rule: 5px ridge rgb(231, 231, 231);
+}
+
+article h1 {
+    column-span: all;
+    text-align: center;
+    font-size: 3.5em;
+    letter-spacing: 0.15em;
+}
+
+article p {
+    widows: 4;
+    orphans: 4;
+}

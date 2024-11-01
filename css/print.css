@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+img {
+    display: none
+}
+
+
+.container {
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+}
+
+p {
+    font-size: 1em;
+}
+
+
+a {
+    display: none;
+}
+
+
+@page {
+    margin: 0;
+}

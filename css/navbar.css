@@ -1,0 +1,72 @@
+@import url("generic.css");
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.menu-toggle {
+    display: none;
+    /* Hide the checkbox */
+}
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.navbar {
+    height: 100%;
+    width: 250px;
+    /* Width of the navbar */
+    position: fixed;
+    /* Stay in place */
+    top: 0;
+    /* Stay at the top */
+    left: -250px;
+    /* Hide the navbar off-screen */
+    background-color: #333;
+    /* Background color */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.5s;
+    /* Animation */
+    padding-top: 60px;
+    /* Space for top links */
+}
+
+.navbar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 25px;
+    /* Text size */
+    color: white;
+    /* Text color */
+    display: block;
+    /* Block display */
+    transition: 0.3s;
+    /* Animation on hover */
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    /* Background color on hover */
+}
+
+.closebtn {
+    font-size: 36px;
+    /* Size of the close button */
+    margin-left: 15px;
+    /* Space from left */
+}
+
+/* Show navbar when checkbox is checked */
+.menu-toggle:checked+.hamburger+.navbar {
+    left: 0;
+    /* Show the navbar */
+}

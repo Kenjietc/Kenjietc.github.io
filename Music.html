@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--
+Author: Kenji Housh
+Music Page
+Date: 10/16/2024
+Filename: Music.html-->
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/generic.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/part two vids.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+    </head>
+
+    <body>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <nav class="navbar">
+            <a href="#" class="closebtn"
+                onclick="document.getElementById('menu-toggle').checked = false;">&#9776;</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+
+            <a href="music.html"> Music</a>
+            <a href="Rocket_League.html">RL Vids</a>
+
+        </nav>
+        <div class="content">
+            <div>
+                <ul>
+                    <li> <a id="spotify"
+                            href="https://open.spotify.com/playlist/7bbXKhJsHjkFfd5B8gbROS?si=e9hVh_8xTj27itUuHr3rWw"><img
+                                id="spotify" src="images/Symbol-Spotify.png">
+                            Spotify Playlist
+                        </a> </li>
+                </ul>
+            </div>
+
+            <h1>
+                Rocket League Playlist
+            </h1>
+            <div class="embed-container">
+                <iframe
+                    src="https://open.spotify.com/embed/playlist/7bbXKhJsHjkFfd5B8gbROS?utm_source=generator"
+                    allowfullscreen
+                    frameborder="0"
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"> </iframe> </div>
+
+            <aside class="comment-section">
+
+                <blockquote class="comment">
+                    " The best feeling is listeing to music while playing the game. Rocket league is the best game for listing to music becuase you can chill while playing and it takes no use for sound ques."
+                    <cite>- Kenji Housh </cite>
+                </blockquote>
+            </aside>
+
+        </body>
+
+    </html>

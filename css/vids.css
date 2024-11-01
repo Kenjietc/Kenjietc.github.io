@@ -1,0 +1,13 @@
+@import url("generic.css");
+
+
+
+
+p#red {
+    color: red;
+}
+
+img#small-vid {
+    width: 85%;
+    height: 85%;
+}
